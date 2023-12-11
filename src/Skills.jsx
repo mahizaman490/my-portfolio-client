@@ -20,7 +20,8 @@ const Skills = () => {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         {skills.map((skill, index) => (
-          <div key={index} className="p-4 rounded-lg text-center transition-transform transform hover:scale-105">
+          <div key={index} className="p-4 rounded-lg text-center transition-transform transform hover:scale-105" data-aos="fade-up"
+          data-aos-duration="3000">
             <img src={skill.icon} alt={`${skill.name} Icon`} className="w-16 h-16 mx-auto mb-4" />
             <p className="text-lg font-bold mb-2">{skill.name}</p>
             <div className="mb-4">
