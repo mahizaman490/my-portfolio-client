@@ -5,20 +5,37 @@ import 'slick-carousel/slick/slick-theme.css';
 
 const Projects = () => {
   const projects = [
+
     {
-      title: 'Project 1',
-      description: 'Everything on this website is stored in the database, and all logged in users can add, update and delete any product they want.',
-      demoUrl: 'https://technology-and-electroni-c64c7.web.app/',
-      codeUrl: 'https://github.com/mahizaman490/assignment-10-client-side-',
-      screenshot: 'https://i.ibb.co/Y7QKnkZ/Screenshot-2023-12-11-021423.png', // Replace with the actual URL to your screenshot image
+      title: 'BD parcel Management',
+      description: 'This project focuses mainly on design and firebase authentication, the website has some private routes that only logged in users can see. Animation is also used throughout the home page of the website. This is one of my practice projects.',
+      demoUrl: 'https://bd-parcel-management.web.app/',
+      codeUrl: 'https://github.com/mahizaman490/assignment-12-client-side-',
+      screenshot: 'https://i.ibb.co/DG4tfqP/BDparcel-Management.png', // Replace with the actual URL to your screenshot image
     },
     {
-      title: 'Project 2',
+      title: 'Social Events',
       description: 'This project focuses mainly on design and firebase authentication, the website has some private routes that only logged in users can see. Animation is also used throughout the home page of the website. This is one of my practice projects.',
       demoUrl: 'https://stellar-starship-6887a0.netlify.app/',
       codeUrl: 'https://github.com/mahizaman490/assignment9-private',
-      screenshot: 'https://i.ibb.co/jb3B14V/Screenshot-2023-12-11-021448.png', // Replace with the actual URL to your screenshot image
+      screenshot: 'https://i.ibb.co/NTCgrZb/Social-Events.png', // Replace with the actual URL to your screenshot image
     },
+    {
+      title: 'Technology and electronics',
+      description: 'Everything on this website is stored in the database, and all logged in users can add, update and delete any product they want.',
+      demoUrl: 'https://technology-and-electroni-c64c7.web.app/',
+      codeUrl: 'https://github.com/mahizaman490/assignment-10-client-side-',
+      screenshot: 'https://i.ibb.co/x3tLvjr/Technology-and-Electronics.png', // Replace with the actual URL to your screenshot image
+    },
+    
+    {
+      title: 'flavor-fusion-palace',
+      description: 'This is a restaurant for ordering food; users can add food to the cart, add to the menu created by themselves, update and delete. They must log in to do this.',
+      demoUrl: 'https://flavor-fusion-palace.web.app/',
+      codeUrl: 'https://github.com/mahizaman490/assignment-11-client-side-',
+      screenshot: 'https://i.ibb.co/rts5tzG/Flavour-Fusion-Home.png', // Replace with the actual URL to your screenshot image
+    },
+   
     // Add more projects as needed
   ];
 

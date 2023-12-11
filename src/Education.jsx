@@ -3,7 +3,7 @@ import { FaGraduationCap } from 'react-icons/fa';
 
 const Education = () => {
   return (
-    <div className="container mx-auto mt-10 p-8 bg-white shadow-lg rounded-lg">
+    <div className="container mx-auto mt-10 p-8 bg-white rounded-lg">
       <h1 className="text-3xl font-bold mb-6 text-center text-cyan-600">
         My Education
       </h1>

@@ -1,6 +1,5 @@
 import Banner from "./Banner";
 import Contact from "./Contact";
-import ContactForm from "./Contactform";
 
 import Education from "./Education";
 import Experience from "./Experience";
