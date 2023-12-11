@@ -8,7 +8,7 @@ const Projects = () => {
 
     {
       title: 'BD parcel Management',
-      description: 'This project focuses mainly on design and firebase authentication, the website has some private routes that only logged in users can see. Animation is also used throughout the home page of the website. This is one of my practice projects.',
+      description: 'This is a Parcel Management App where people can book parcels to deliver. Admin can assign delivery persons, and delivery persons deliver the parcel',
       demoUrl: 'https://bd-parcel-management.web.app/',
       codeUrl: 'https://github.com/mahizaman490/assignment-12-client-side-',
       screenshot: 'https://i.ibb.co/DG4tfqP/BDparcel-Management.png', // Replace with the actual URL to your screenshot image
