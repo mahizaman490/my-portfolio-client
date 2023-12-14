@@ -3,9 +3,13 @@ const Banner = () => {
     return (
         <div className="hero min-h-screen ">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src="https://i.ibb.co/VLY8Rpd/Screenshot-2023-12-10-213931.png" className=" max-w-sm rounded-lg shadow-2xl"  data-aos="flip-left"
+   <div className="rounded-full">
+
+
+   <img  src="https://i.ibb.co/VLY8Rpd/Screenshot-2023-12-10-213931.png" className=" max-w-sm rounded-full shadow-2xl"  data-aos="flip-left"
      data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"/>
+   </div>
           <div className="md:w-6/12">
           <h1 className="text-5xl font-bold bg-gradient-to-r from-cyan-400 via-cyan-600 to-blue-700 text-transparent bg-clip-text" 
     data-aos="fade-down" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
