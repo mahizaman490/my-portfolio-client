@@ -23,7 +23,7 @@ const Footer = () => {
           Connect with me on social media or send me an email
         </p>
         <p className="text-xs">
-          &copy; {new Date().getFullYear()} Your Name. All Rights Reserved.
+          &copy; {new Date().getFullYear()} Fatematuz Jannat Mahi. All Rights Reserved.
         </p>
       </div>
     </footer>
