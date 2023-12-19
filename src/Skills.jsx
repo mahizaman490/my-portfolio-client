@@ -2,16 +2,23 @@ import React from 'react';
 
 const Skills = () => {
   const skills = [
-    { name: 'HTML', icon: 'https://img.icons8.com/color/48/000000/html-5.png', progress: 80 },
-    { name: 'CSS', icon: 'https://img.icons8.com/color/48/000000/css3.png', progress: 60 },
-    { name: 'JavaScript', icon: 'https://img.icons8.com/color/48/000000/javascript.png', progress: 30 },
-    { name: 'React', icon: 'https://img.icons8.com/fluency/48/000000/react.png', progress: 40 },
-    { name: 'Tailwind CSS', icon: 'https://img.icons8.com/color/48/000000/tailwind-css.png', progress: 70 },
-    { name: 'Node.js', icon: 'https://img.icons8.com/color/48/000000/nodejs.png', progress: 30 },
-    { name: 'Express.js', icon: 'https://img.icons8.com/color/48/000000/express.png', progress:40 },
-    { name: 'MongoDB', icon: 'https://img.icons8.com/color/48/000000/mongodb.png', progress: 30 },
-    { name: 'Firebase', icon: 'https://img.icons8.com/color/48/000000/firebase.png', progress: 40 },
-  ];
+    { name: 'HTML', icon: 'https://img.icons8.com/color/96/000000/html-5.png', progress: 80 },
+    { name: 'CSS', icon: 'https://img.icons8.com/color/96/000000/css3.png', progress: 60 },
+    { name: 'JavaScript', icon: 'https://img.icons8.com/color/96/000000/javascript.png', progress: 30 },
+    { name: 'React', icon: 'https://img.icons8.com/office/96/000000/react.png', progress: 40 },
+    { name: 'Tailwind CSS', icon: 'https://img.icons8.com/color/96/000000/tailwindcss.png', progress: 70 },
+    { name: 'Node.js', icon: 'https://img.icons8.com/color/96/000000/nodejs.png', progress: 30 },
+    { name: 'Express.js', icon: 'https://img.icons8.com/color/96/000000/express.png', progress: 40 },
+    { name: 'MongoDB', icon: 'https://img.icons8.com/color/96/000000/mongodb.png', progress: 30 },
+    { name: 'Firebase', icon: 'https://img.icons8.com/color/96/000000/firebase.png', progress: 40 },
+];
+
+
+
+
+
+
+
 
   return (
     <div className="container mx-auto mt-10 p-8 bg-white  rounded-lg">

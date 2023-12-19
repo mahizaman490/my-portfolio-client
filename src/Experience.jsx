@@ -4,15 +4,15 @@ const Experience = () => {
         <h1 className="text-3xl font-bold mb-6 text-center text-cyan-600">Experience</h1>
   
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <div className="p-4 rounded-lg bg-gray-100" data-aos="fade-down"
+        <div className="p-4 rounded-lg bg-gray-100" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
-            <h2 className="text-lg font-bold mb-2 text-cyan-600">Computer Science Student</h2>
-            <p className="text-sm text-gray-600 mb-4">
-              I am currently studying Computer Science at The International University of Scholars.
-            </p>
-          </div>
-  
+    <h2 className="text-lg font-bold mb-2 text-cyan-600">Personal Project Experience</h2>
+    <p className="text-sm text-gray-600 mb-4">
+    I am passionate about frontend development and have successfully completed several personal projects showcasing my skills. These projects span a wide range, from responsive web design using HTML, CSS, and JavaScript to building dynamic and interactive user interfaces with frameworks like React. Through hands-on experience, I have honed my abilities in crafting visually appealing and functional frontend solutions.
+    </p>
+</div>
+
           <div className="p-4 rounded-lg bg-gray-100" data-aos="fade-down"
      data-aos-easing="linear"
      data-aos-duration="1500">
