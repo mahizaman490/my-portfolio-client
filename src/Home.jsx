@@ -10,7 +10,10 @@ import Skills from "./Skills";
 
 const Home = () => {
     return (
-        <div>
+        <div  className="bg-cover bg-center"
+        style={{
+          backgroundImage: 'url("https://i.ibb.co/k2n9zQr/6706373-3395620.jpg")',
+        }}>
             <Nav></Nav>
             <Banner></Banner>
             <Skills></Skills>

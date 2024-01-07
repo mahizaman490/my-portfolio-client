@@ -48,14 +48,14 @@ const Projects = () => {
   };
 
   return (
-    <div className="container mx-auto mt-10 p-8 bg-white shadow-lg rounded-lg">
+    <div className="container mx-auto mt-10 p-8 shadow-lg rounded-lg">
       <h1 className="text-3xl font-bold mb-6 text-center text-cyan-600">My Projects</h1>
 
       <Slider {...sliderSettings}>
         {projects.map((project, index) => (
-          <div key={index} className="p-4 rounded-lg bg-gray-100">
+          <div key={index} className="p-4 rounded-lg ">
             <h2 className="text-lg font-bold text-cyan-600 mb-2">{project.title}</h2>
-            <p className="text-sm text-gray-600 mb-4">{project.description}</p>
+            <p className="text-sm text-slate-300 mb-4">{project.description}</p>
             <div className="aspect-w-16 aspect-h-9">
               <img
                 src={project.screenshot}
@@ -76,7 +76,7 @@ const Projects = () => {
                 href={project.codeUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-gray-500 hover:underline"
+                className="text-slate-300 hover:underline"
               >
                 View Code
               </a>

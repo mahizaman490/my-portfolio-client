@@ -16,7 +16,7 @@ const Banner = () => {
   Welcome to my digital space!
 </h1>
 
-            <p className="py-6 font-semibold text-slate-500 " data-aos="fade-down"  data-aos-easing="ease-out-cubic"
+            <p className="py-6 font-semibold text-slate-300 " data-aos="fade-down"  data-aos-easing="ease-out-cubic"
      data-aos-duration="2000"><p className="font-bold text-xl">I am Fatematuz Jannat Mahi</p> a passionate <span className="font-bold text-cyan-500">Junior MERN Stack Developer</span>, weaving creativity into functional code. Embark on a journey through my portfolio, where innovation meets implementation. Explore the projects, discover the technologies, and witness the artistry of a developer driven by curiosity and a commitment to excellence. Let's bring ideas to life, one line of code at a time</p>
             {/* <button className="btn bg-cyan-600">Download Resume</button> */}
             <a href="https://drive.google.com/uc?export=download&id=1Ru4hhN5RZ5Rp2iJYk920B2vGfC9w_1K3" download="YourResumeFileName.pdf">
