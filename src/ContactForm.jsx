@@ -40,7 +40,7 @@ const ContactForm = () => {
 
   return (
     <form
-      className="max-w-md mx-auto mt-8 p-6 border border-gray-300 rounded-md shadow-md"
+      className="max-w-md mx-auto mt-8 p-6 border "
       onSubmit={sendEmail}
     >
       <div className="mb-4">
@@ -53,7 +53,7 @@ const ContactForm = () => {
           name="name"
           value={formData.name}
           onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500 "
+          className="w-full p-2 border rounded-md focus:outline-none focus:border-blue-500 "
           required
         />
       </div>
@@ -68,7 +68,7 @@ const ContactForm = () => {
           name="email"
           value={formData.email}
           onChange={handleChange}
-          className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+          className="w-full p-2 border rounded-md focus:outline-none focus:border-blue-500"
           required
         />
       </div>
@@ -83,7 +83,7 @@ const ContactForm = () => {
           value={formData.message}
           onChange={handleChange}
           rows="4"
-          className="w-full p-2 border border-gray-300 rounded-md focus:outline-none focus:border-blue-500"
+          className="w-full p-2 border rounded-md focus:outline-none focus:border-blue-500"
           required
         ></textarea>
       </div>

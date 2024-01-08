@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 const Banner = () => {
     return (
@@ -21,12 +22,11 @@ const Banner = () => {
             {/* <button className="btn bg-cyan-600">Download Resume</button> */}
             <a href="https://drive.google.com/uc?export=download&id=1Ru4hhN5RZ5Rp2iJYk920B2vGfC9w_1K3" download="YourResumeFileName.pdf">
   <button className="btn bg-cyan-600">Download Resume</button>
+  
 </a>
 
 
 
-
-       
           </div>
         </div>
        
